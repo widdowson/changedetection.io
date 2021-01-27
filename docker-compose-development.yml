@@ -3,7 +3,7 @@ services:
 
   backend:
     build: ./backend/dev-docker
-    container_name: changedection-backend
+    container_name: changedetection.io-dev
     volumes:
       - ./backend:/app
       - ./datastore:/datastore

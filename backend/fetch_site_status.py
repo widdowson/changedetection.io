@@ -14,14 +14,10 @@ class perform_site_check(Thread):
         self.datastore = datastore
         self.url = datastore.get_val(uuid, 'url')
         self.current_md5 = datastore.get_val(uuid, 'previous_md5')
-
-    def save_firefox_screenshot(self, uuid, output):
-        # @todo call selenium or whatever
-        return
+        self.output_path = "/datastore/{}".format(self.uuid)
 
 
     def run(self):
-
 
 
         self.datastore.update_watch(self.uuid, 'last_error', False)
