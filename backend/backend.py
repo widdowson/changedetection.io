@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+# coding=utf-8
 
 # @todo logging
 # @todo sort by last_changed
@@ -141,6 +142,8 @@ def ticker_thread_check_time_launch_checks():
 
 
 def main(argv):
+
+
     ssl_mode = False
     port = 5000
 

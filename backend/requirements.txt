@@ -15,6 +15,8 @@ bleach==3.2.1
 html5lib==0.9999999       # via bleach
 
 html2text
+timeago==1.0.15
+selenium==3.141.0
 
 # @notes
 # - Dont install socketio, it interferes with flask_socketio
