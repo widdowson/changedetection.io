@@ -6,11 +6,11 @@ eventlet>=0.31.0
 requests[socks] ~= 2.15
 validators
 timeago ~=1.0
-inscriptis ~= 1.1
 feedgen ~= 0.9
 flask-login ~= 0.5
 pytz
 urllib3
+selenium==3.141.0
 
 # Notification library
 apprise ~= 0.9
