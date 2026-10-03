@@ -1,7 +1,34 @@
-__pycache__
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+**/*.py[cod]
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info*
+
+# Virtual environment
+.env
+.venv/
+venv/
+.python-version
+
+# IDEs
 .idea
-*.pyc
-datastore/url-watches.json
-datastore/*
-__pycache__
-.pytest_cache
+.vscode/settings.json
+*~
+
+# Datastore files
+datastore/
+test-datastore/
+
+# Memory consumption log
+test-memory.log
+
+# Per-test loguru logs written by tests/conftest.py (dirname(__file__)/logs)
+changedetectionio/tests/logs/

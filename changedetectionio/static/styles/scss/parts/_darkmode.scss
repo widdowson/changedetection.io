@@ -1,0 +1,23 @@
+
+.toggle-light-mode {
+  /* default */
+  .icon-dark {
+    display: none;
+  }
+}
+
+html[data-darkmode="true"] {
+  .toggle-light-mode {
+    .icon-light {
+      display: none;
+    }
+
+    .icon-dark {
+      display: block;
+    }
+  }
+}
+
+
+
+
